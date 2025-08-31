@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn7pd4twwiug6"]
+
+[ext_resource type="Texture2D" uid="uid://dqb0lv46lg130" path="res://images/black.jpg" id="1_lm0ep"]
+
+[node name="End" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -2.0
+offset_top = 6.0
+offset_right = 1233.0
+offset_bottom = 669.0
+texture = ExtResource("1_lm0ep")
+expand_mode = 1
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 195.0
+offset_right = 992.0
+offset_bottom = 468.0
+theme_override_font_sizes/font_size = 200
+text = "You Win"
